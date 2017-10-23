@@ -1,0 +1,10 @@
+# Dreamhost doesn't allow any way to configure connection security except .htaccess. :-(
+
+# If on HTTPS, sent the HSTS header.
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+Header always unset Strict-Transport-Security env=!HTTPS
+
+# Redirect to HTTPS first.
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
