@@ -11,4 +11,4 @@ deploy:
 
 .PHONY: open
 open:
-	open "https://alg.cubing.net/"
+	open "https://negative-time.cubing.net/"
