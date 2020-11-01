@@ -56,10 +56,12 @@ function format_centiseconds(result: number): string {
 
 const root = document.body;
 root.innerHTML = "";
+const tableRoot = root.appendChild(document.createElement("div"));
 for (const [event, rows] of Object.entries(by_event)) {
   if (rows.length === 0) {
     continue;
   }
+  // TODO: handle ties
   const sorted_rows = rows.sort(
     (a, b) => centiseconds(a.Result) - centiseconds(b.Result)
   );
@@ -76,11 +78,11 @@ for (const [event, rows] of Object.entries(by_event)) {
   const anyRowHasVideoURL = anyRowHasField(FieldName.VideoURL);
   const anyRowHasReconstruction = anyRowHasField(FieldName.Reconstruction);
 
-  const h2 = root.appendChild(document.createElement("h2"));
+  const h2 = tableRoot.appendChild(document.createElement("h2"));
   h2.id = `results-${eventData[event].code}`;
   h2.append(event); // TODO: ID
 
-  const table = root.appendChild(document.createElement("table"));
+  const table = tableRoot.appendChild(document.createElement("table"));
 
   const thead = table.appendChild(document.createElement("thead"));
   const theadTr = thead.appendChild(document.createElement("tr"));
@@ -128,11 +130,12 @@ for (const [event, rows] of Object.entries(by_event)) {
       if (reconstructionString !== "") {
         const a = reconstructionTD.appendChild(document.createElement("a"));
         console.log(eventData[event].scrambleString);
-        a.href = algCubingNetLink({
-          setup: algParse(eventData[event].scrambleString), // TODO
-          alg: algParse(reconstructionString),
-          title: `${row.Name}\nNegative Time Solve ${year}\n${formattedResult}`,
-        });
+        a.href = reconstructionString;
+        // algCubingNetLink({
+        //   setup: algParse(eventData[event].scrambleString), // TODO
+        //   alg: algParse(reconstructionString),
+        //   title: `${row.Name}\nNegative Time Solve ${year}\n${formattedResult}`,
+        // });
         const span = a.appendChild(document.createElement("span"));
         span.title = "Reconstruction";
         span.textContent = "▶️";
@@ -146,6 +149,8 @@ const button = document.createElement("button");
 root.prepend(button);
 button.textContent = "Copy";
 button.addEventListener("click", () => {
-  navigator.clipboard.writeText(new XMLSerializer().serializeToString(root));
+  navigator.clipboard.writeText(
+    new XMLSerializer().serializeToString(tableRoot)
+  );
   button.textContent = "Copied!";
 });
