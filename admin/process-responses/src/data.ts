@@ -20,12 +20,13 @@ export const data = `Timestamp,Name,Country Where You Participated,Event,Result,
 11/1/2020 1:03:02,Jason Ostdiek ,USA ,3x3x3 Speedsolve,"-59min, 49.92sec",,,
 11/1/2020 1:03:37,Jeremy Fleischman,USA,3x3x3 Speedsolve,"-59min, 49.51sec",Thanks Lucas for keeping this tradition going!,,
 11/1/2020 1:03:48,Rebecca Chung,USA,3x3x3 Speedsolve,"-59 min, 28.16sec",,,
-11/1/2020 1:09:30,Rowan,USA,3x3x3 Speedsolve,"-59min, 47.38sec",fantastic!,,
+11/1/2020 1:09:30,Rowan,USA,3x3x3 Speedsolve,"-59min, 52.38sec",fantastic!,,
 11/1/2020 1:11:26,Ben Wernli,USA,3x3x3 Speedsolve,"-59min, 44.736sec",,,
 11/1/2020 1:31:43,Lucas Garron,USA,3x3x3 Speedsolve,"-59min, 50.04sec","My first sub -59:50.00, which means this is the lowest result I've ever had for any solve! 😃😃😃",https://www.youtube.com/watch?v=MAqwvZNemcA,"https://alg.cubing.net/?setup=B_D-_F-_R-_F_U2_R-_F-_R2_U2_F-_D2_L2_B-_R2_B-_U-_F2_U-&alg=y-_x_U_M-_D2_y_R2_%2F%2F_Cross%0AU_y-_U_R_U-_R-_L_U-_L-_%2F%2F_Slot_1%0AU_R_U_R-_U_R_U-_R-_%2F%2F_Slot_2%0AL-_U_L_U_R-_U2-_R_U_R-_U-_R_%2F%2F_Slot_3%0Ay-_U_L_F-_L-_U2-_L_F_L-_%2F%2F_ELS%0AU-_R2_U2-_R-_U-_R_U-_R2-_U-_R_U-_R-_%2F%2F_CLS%0AU2-_R-_U-_R_(U_D-)_R2_U_R-_U_R_U-_R_U-_R2-_D&view=playback&title=Negative%20Time%20Solve%202020%0A-59min,%2050.04sec%0ALucas%20Garron"
 11/1/2020 1:36:21,Ian,USA,3x3x3 Speedsolve,"-59min, 47.90 sec",,,
 11/1/2020 1:37:14,Draco Tong,USA,3x3x3 Blindfolded,"-52min, 41.04sec",,,
-11/1/2020 2:04:06,Ben Baron,Israel,3x3x3 Speedsolve,"-59min, 51.35sec",I was very tired ,,`;
+11/1/2020 2:04:06,Ben Baron,Israel,3x3x3 Speedsolve,"-59min, 51.35sec",I was very tired ,,
+11/2/2020 22:21:34,Mitchell Lane,USA,6x6x6,"-57min, 55.17sec ",,https://www.twitch.tv/videos/788593413?t=00h19m31s,`;
 
 export const eventData: Record<
   string,
@@ -40,6 +41,9 @@ export const eventData: Record<
   },
   "3x3x3 Blindfolded": {
     code: "333bf",
+  },
+  "6x6x6": {
+    code: "666",
   },
   "Square-1": {
     code: "sq1",
