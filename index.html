@@ -7,6 +7,7 @@
   <title>Negative Time Solving Contest</title>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" id="favicon" href="../img/favicon.gif" />
+  <script src="https://cdn.cubing.net/esm/web_modules/cubing/twisty.js" type="module" defer></script>
 </head>
 
 <body>
@@ -36,22 +37,38 @@
           font-size: 1.25em;
         }
       </style>
-      <table class="events"><tr>
-        <td>Europe</td>
-        <td><b>Oct. 25, 2020</b></td>
-        <td><a href="https://www.facebook.com/events/1020956998366170/">RSVP
-            on Facebook</a></td>
-      </tr><tr></tr>
-      <td>North America</td>
-      <td><b>Nov. 1, 2020</b></td>
-      <td><a href="https://www.facebook.com/events/643650192996031/">RSVP
-          on Facebook</a></td>
-      </tr><tr></tr>
-      <td>Elsewhere</td>
-      <td>Check <a href="https://www.timeanddate.com/time/dst/events.html">timeanddate.com</a></td>
-      <td></td>
+      <table class="events">
+      <tr>
+        <td>Oceania¹</td>
+        <td><b>Apr. 4, 2021</b></td>
+        <td>
+          <a href="https://www.facebook.com/events/450500986089191/">RSVP on Facebook</a>
+          </td>
+      </tr>
+      <tr>
+        <td>Europe¹</td>
+        <td><b>Oct. 31, 2021</b></td>
+        <td>
+          <!-- <a href="https://www.facebook.com/events/1020956998366170/">RSVP on Facebook</a> -->
+        </td>
+      </tr>
+      <tr>
+        <td>North America¹</td>
+        <td><b>Nov. 7, 2021</b></td>
+        <td>
+          <!-- <a href="https://www.facebook.com/events/643650192996031/">RSVP on Facebook</a> -->
+          </td>
+      </tr>
+      <tr>
+        <td>Elsewhere</td>
+        <td>Check <a href="https://www.timeanddate.com/time/dst/events.html">timeanddate.com</a></td>
+        <td></td>
       </tr>
       </table>
+
+      <br>
+      ¹ Most locations (if observing Daylight Savings).
+      <br>
 
       <br>
       See <a href="http://www.timeanddate.com/time/dstevents.html">timeanddate.com</a> to check the clock change
@@ -108,30 +125,38 @@
     </ul>
 
 
-    <h1>2020 Contest</h1>
+    <h1>2021 Contest</h1>
 
-    <p>The 3x3x3 scramble for 2020 is below. This is the <b>only</b> Negative Time Solving 3x3x3 speedsolve scramble for
-      2020. Do not use it before the real attempt:</p>
+    <p>The 3x3x3 scramble for 2021 is below. This is the <b>only</b> Negative Time Solving 3x3x3 speedsolve scramble for
+      2021. Do not use it before the real attempt:</p>
 
     <div class="scramble">
-      <a href="https://alg.cubing.net/?alg=B_D-_F-_R-_F_U2_R-_F-_R2_U2_F-_D2_L2_B-_R2_B-_U-_F2_U-&view=playback">B D' F' R'
-        F U2 R' F' R2 U2 F' D2 L2 B' R2 B' U' F2 U'</a>
+      <a href="https://alg.cubing.net/?alg=R-_U2_R_L-_U-_D2_F-_L-_B-_R_D-_L2_D-_B2_D-_F2_D2_L2&view=playback">
+        R' U2 R L' U' D2 F' L' B' R D' L2 D' B2 D' F2 D2 L2
+      </a>
+      <div style="display: grid; place-content: center;">
+        <button onclick="document.querySelector('#scramble-viewer').style.display
+            ='inherit'; this.remove();" style="margin-top: 0.5em; font-size: 1em;">Show
+          scramble</button>
+        <twisty-player id="scramble-viewer" alg="R' U2 R L' U' D2 F' L' B' R D' L2 D' B2 D' F2 D2 L2"
+          style="width: 384px; display: none;" visualization="2D" control-panel="none" background="none"></twisty-player>
+      </div>
     </div>
-
 
     <h2>Other Challenges</h2>
 
-    <p>Scrambles for all WCA events are <a href="./2020/scrambles-2020.zip">this ZIP file</a>. For other challenges, use
+    <p>Scrambles for 2021 for all WCA events are <a href="./2021/scrambles-2021.zip">this ZIP file</a>. For other challenges, use
       your own scrambles.</p>
 
     <h1 id="results">Results</h1>
 
-    <p>Please submit your results for 2020 using <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkPZf4hpDmHTwAYADpXES_pnib0Qe0tf97wZXN4jGHaIZ38A/viewform?usp=sf_link">this form</a> and come
-      back after November 2020 to see everyone's results.</p>
+    <p>Please submit your results for 2021 using <a href="https://docs.google.com/forms/d/e/1FAIpQLSdci5GKWAkMVzJAlx96C-tXtecXDZ5Z8Von-MUKQItDMCpRdQ/viewform?usp=sf_link">this form</a> and come
+      back after November 2021 to see everyone's results.</p>
 
     <p>Past results are at:</p>
 
-    <ul><li><a href="./2020/">2020</a></li>
+    <ul>
+      <li><a href="./2020/">2020</a></li>
       <li><a href="./2019/">2019</a></li>
       <li><a href="./2018/">2018</a></li>
       <li><a href="./2017/">2017</a></li>
