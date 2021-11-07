@@ -33,7 +33,7 @@ export const eventData: Record<
 > = {
   "3x3x3 Speedsolve": {
     code: "333",
-    scrambleString: "D F D2 R' D' L U' R' F' B' R' U2 L' B2 R' B2 R2 D2 R",
+    scrambleString: "R' U2 R L' U' D2 F' L' B' R D' L2 D' B2 D' F2 D2 L2",
   },
   "2x2x2": {
     code: "222",
