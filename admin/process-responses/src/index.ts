@@ -1,7 +1,7 @@
 // @ts-ignore
 import parse from "csv-parse/lib/sync";
-import { algCubingNetLink, parse as algParse } from "cubing/alg";
-import { data, eventData, year } from "./data";
+import { TwistyPlayer } from "cubing/twisty";
+import { data, eventData } from "./data";
 
 enum FieldName {
   Name = "Name",
@@ -130,7 +130,11 @@ for (const [event, rows] of Object.entries(by_event)) {
       if (reconstructionString !== "") {
         const a = reconstructionTD.appendChild(document.createElement("a"));
         console.log(eventData[event].scrambleString);
-        a.href = reconstructionString;
+        const player = new TwistyPlayer({
+          experimentalSetupAlg: eventData[event].scrambleString,
+          alg: reconstructionString,
+        });
+        a.href = await player.experimentalModel.viewerLinkProp.get();
         // algCubingNetLink({
         //   setup: algParse(eventData[event].scrambleString), // TODO
         //   alg: algParse(reconstructionString),
