@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "es2020"]
+    "module": "esnext",
+    "lib": ["dom", "es2020"],
+    "target": "es2020",
+    "moduleResolution": "node"
   }
 }
