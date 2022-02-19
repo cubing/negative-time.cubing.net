@@ -1,7 +1,6 @@
 .PHONY: dev
 dev:
-	npx parcel src/index.html
-
+	node script/dev.js
 
 .PHONY: clean
 clean:

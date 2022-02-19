@@ -4,11 +4,11 @@
   "author": "Lucas Garron <code@garron.net>",
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "barely-a-dev-server": "^0.2.6",
     "csv-parse": "^4.12.0",
     "cubing": "^0.21.0-pre7"
   },
   "devDependencies": {
-    "parcel": "^2.0.0",
     "typescript": "^4.0.3"
   }
 }
