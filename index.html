@@ -149,6 +149,88 @@
     <p>Scrambles for 2022 for all WCA events, as well as FTO, Kilominx, Master Tetraminx, and Redi Cube, are <a
         href="./2022/scrambles-2022.zip">this ZIP file</a>. For other challenges, use your own scrambles.</p>
 
+    <div style="display: grid; place-content: center; width: 100%; grid-template-columns: 1fr;">
+      <button onclick="document.querySelector('#other-challenges').style.display
+                ='inherit'; this.remove();" style="margin-top: 0.5em; font-size: 1em;">Show
+        other scrambles</button>
+      <div id="other-challenges" style="display: none; width: 100%;">
+        <select style="width: 100%;">
+          <option data-puzzle="3x3x3" data-scramble="U' B' D' U2 B2 U' F2 L' U2 R2 B' U' B F2 L2 U2 B2 Uw">3x3x3
+            Blindfolded
+          </option>
+          <option data-puzzle="3x3x3"
+            data-scramble="R' U' F R' L' B' U2 B2 R' F' L2 D2 F' D L U2 L2 B2 U2 D2 L D2 R' U' F">
+            3x3x3 Fewest Moves</option>
+          <option data-puzzle="3x3x3" data-scramble="B2 L2 U' F2 D F' L F' B' U2 R L2 F' U2 F' B R2 U2 B'">3x3x3
+            One-Handed
+          </option>
+          <option data-puzzle="2x2x2" data-scramble="R' U' R2 U' R2 U2 F2 R U' R' F">2x2x2</option>
+          <option data-puzzle="4x4x4"
+            data-scramble="R2 B2 U2 L2 U' R B' R U2 D2 F' R2 B' U2 F U2 L' B' Uw2 Rw2 B' U2 L' Fw2 R F Uw2 F R Fw2 F Uw' F U' R2 Uw' U Rw' F' Rw2 Fw' Rw2 B z' y">
+            4x4x4 Blindfolded</option>
+          <option data-puzzle="4x4x4"
+            data-scramble="D2 F2 L2 U' R2 D' L2 U B2 R U B2 D R B' F2 D' B2 F D Fw2 D2 R' U' L' Uw2 R B2 D' Fw2 R' D' Fw L Uw2 F U2 B' Rw' Fw' Rw2 D' R' Uw2 L">
+            4x4x4</option>
+          <option data-puzzle="5x5x5"
+            data-scramble="Dw2 F2 R2 B D Fw2 B' U2 Fw2 Bw Uw' D' Dw' Fw' Rw' R2 Dw L' Uw D U Rw2 U2 D2 B2 D Uw U' R2 D2 Dw' L Lw Fw2 L D' B2 F' Lw L Fw2 B' R2 Uw' Lw Uw R2 L' Rw F U' D' Rw' F Rw' Dw2 Lw' D' F' D' 3Rw 3Uw">
+            5x5x5 Blindfolded</option>
+          <option data-puzzle="5x5x5"
+            data-scramble="L' Rw D Fw Uw2 Dw' Rw2 R2 D' Rw' Lw' Fw' U Lw F' B' Bw2 Fw' R2 Dw2 U L' Lw Dw2 Uw F' Lw' Bw' B Fw R F2 Uw L Dw Rw2 L' R U' D' Bw2 Dw2 Rw F Lw B' D' B' Rw' Bw' Uw2 Lw' B2 U2 B2 U R U2 R Rw2">
+            5x5x5</option>
+          <option data-puzzle="6x6x6"
+            data-scramble="B2 U Rw' Lw 3Rw' F' U2 3Uw R2 D B 3Uw' 3Rw2 D2 B' Rw2 3Fw2 D 3Fw' Rw2 Uw Lw' Fw2 3Rw2 3Uw2 Lw Fw' Lw Rw' L' Dw2 Fw L2 Rw F2 Dw Rw' Dw2 Uw' B Uw2 Bw U2 Lw2 B' F' Bw' Uw2 L2 Rw' Bw Rw2 U 3Rw Dw2 Lw F' Uw R' U' 3Uw' Fw2 B 3Uw 3Fw B Lw L' F2 Uw2 B Lw Fw R2 3Fw2 3Uw' Fw2 Uw U' L2">
+            6x6x6</option>
+          <option data-puzzle="7x7x7"
+            data-scramble="3Uw2 D2 3Rw2 D' Bw' U2 B2 3Lw' Uw2 3Uw' 3Bw2 Rw 3Fw2 U L2 3Dw' Lw 3Bw F2 Bw Dw' D Lw Dw2 R B' Bw R2 3Fw2 3Lw2 Uw2 3Rw' F2 L2 D2 3Fw2 Lw2 D2 3Lw Dw' B' Fw2 R L Rw2 Fw Dw Lw Rw 3Dw2 Rw' D' Uw2 3Uw2 3Rw 3Fw' B2 3Bw2 Bw2 F 3Uw 3Bw2 U' Lw2 3Rw2 3Lw 3Dw L Lw2 3Bw2 Bw' 3Uw' 3Rw2 Bw 3Bw2 B' 3Fw2 3Rw' Uw' B' Dw' R2 D2 Rw 3Lw 3Fw2 Lw2 L R2 3Uw' F 3Uw' 3Rw2 3Fw2 R Dw B2 3Rw2 3Bw Uw">
+            7x7x7</option>
+          <option data-puzzle="clock"
+            data-scramble="UR1+ DR1+ DL3+ UL6+ U1+ R5+ D5- L4- ALL5+ y2 U0+ R0+ D5- L5+ ALL0+ DR DL">
+            Clock</option>
+          <option selected data-puzzle="fto"
+            data-scramble="F' R' F R' U L F L' F' U' F' L' U' R' U R L R' F U F L' F R U R U' L F R F' L' BR R F BR' B' R F'">
+            Face-Turning Octahedron</option>
+          <option data-puzzle="kilominx"
+            data-scramble="U2' L2 F' R2 U L2 BR x2 U2' R2 F L2 U' BL' L2' BR2 BL2 R2' F U R' F2 R U2 F' U2 R F'">
+            Kilominx
+          </option>
+          <option data-puzzle="master_tetraminx" data-scramble="U b' B' u b' L R' b' U' R' l' u' b u' r' b l r b'">
+            Master
+            Tetraminx</option>
+          <option data-puzzle="megaminx" data-scramble="R-- D-- R++ D++ R++ D++ R-- D-- R++ D++ U
+            R-- D-- R-- D++ R++ D++ R-- D++ R++ D-- U'
+            R++ D-- R-- D++ R++ D-- R-- D++ R++ D-- U'
+            R++ D-- R++ D-- R-- D++ R++ D-- R-- D-- U'
+            R-- D-- R++ D-- R++ D++ R++ D-- R++ D-- U'
+            R-- D++ R++ D-- R-- D-- R++ D-- R++ D-- U'
+            R-- D-- R++ D-- R-- D-- R++ D++ R++ D-- U'">
+            Megaminx</option>
+          <option data-puzzle="pyraminx" data-scramble="U R B' U' R B U B' L' B' R u l' r' b">Pyraminx</option>
+          <option data-puzzle="redi_cube" data-scramble="UL' B D R' D L B' R UL' UR F' UR U' UR">Redi Cube</option>
+          <option data-puzzle="skewb" data-scramble="B U R U L U B' R B L' B'">Skewb</option>
+          <option data-puzzle="square1"
+            data-scramble="(4,3) / (-4,-1) / (4,-5) / (-3,0) / (-4,-1) / (4,0) / (6,-3) / (-3,-4) / (2,0) / (0,-2) / (-2,0)">
+            Square-1</option>
+        </select>
+        <twisty-alg-viewer for="other-challenges-player" style="width: 75%; margin: 1em auto; font-size: 1.25em;">
+        </twisty-alg-viewer>
+        <twisty-player id="other-challenges-player" puzzle="fto" style="width: 100%; margin: 1em;" visualization="2D"
+          control-panel="none" background="none">
+        </twisty-player>
+      </div>
+    </div>
+    <script type="module">
+      const select = document.querySelector("#other-challenges select");
+      const player = document.querySelector("#other-challenges twisty-player");
+      function onChange() {
+        const option = select.selectedOptions[0];
+        player.puzzle = option.getAttribute("data-puzzle");
+        player.alg = option.getAttribute("data-scramble");
+        player.timestamp = "end"
+      }
+      select.addEventListener("change", onChange);
+      onChange();
+    </script>
+
     <h1 id="results">Results</h1>
 
     <p>Please submit your results for 2022 using <a
