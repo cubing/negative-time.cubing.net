@@ -78,6 +78,7 @@ li {
 }
 
 table {
+  background: white;
   border-collapse: collapse;
   width: 100%;
 }
