@@ -9,7 +9,7 @@ export const data = `Timestamp,Name,Country Where You Participated,Event,Result,
 11/5/2022 23:02:13,Zachary Miller,USA (Eastern),3x3x3 Speedsolve,"-59min, 49.42sec",First negative time solve! was a lot of fun :),,
 11/5/2022 23:02:38,Mike Hughey,USA,Redi Cube,"-59min, 13.60sec","That was horrible. In the stress of watching the time, I didn't notice I had solved the first layer wrong, so I had to resolve the whole thing.",,
 11/5/2022 23:03:38,Michael Gottlieb,USA,3x3x3 Speedsolve,"-59min, 48.588sec",,,
-11/5/2022 23:03:54,Erik Cheng,USA,3x3x3 Speedsolve,"-59 min, 57.89sec",actually remembered this year yay,,
+11/5/2022 23:03:54,Erik Cheng,USA,3x3x3 Speedsolve,"-59 min, 47.89sec",actually remembered this year yay,,
 11/5/2022 23:04:23,Michael Gottlieb,USA,7x7x7 Computer Cube,"-56min, 58.341sec",,,
 11/5/2022 23:04:35,Daniel Goodman,USA,Kilominx,"-59min, 31.39sec","Was planning to do Redi Cube but didn't recognize the scramble format so I couldn't scramble it... my bad for not taking a quick look beforehand. Pivoted to my 2nd best event on the list at the last minute, the solve was pretty bad, but it's 1am so that's to be expected :P",,
 11/5/2022 23:05:27,Harsha Paladugu,USA,Master Tetraminx,"-59min, 43.37sec",,https://youtu.be/TVnesiTcBuQ,
@@ -26,7 +26,7 @@ export const data = `Timestamp,Name,Country Where You Participated,Event,Result,
 11/6/2022 1:05:06,David Karalli,USA,3x3x3 Blindfolded,"-59 min, 3.45 sec",,,
 11/6/2022 1:08:25,Ethan Davis,USA,Kilominx,"-59 min, 37.94sec",,https://youtu.be/dZuy6BxgOxw,
 11/6/2022 1:16:05,Evyn Chiappe,USA,3x3x3 Speedsolve,"-58min, 11.40sec",,,
-11/6/2022 1:16:51,Evyn Chiappe,USA,Megaminx,"""-50min, 33.33sec""",,,
+11/6/2022 1:16:51,Evyn Chiappe,USA,NEGAminx,"""-50min, 33.33sec""",,,
 11/6/2022 1:37:38,Rowan Fortier,Canada,Melinda's 2x2x2x2,"-58min, 20.67sec",now I have done both physical and virtual 4D puzzles in negative time :D,https://youtu.be/c-xfbM2ms3o,
 11/6/2022 5:49:01,Chris Hardwick,USA,3x3x3 Speedsolve,"-59min, 42.60sec","I have the flu this year, but am happy to still be able to participate.",https://youtu.be/MsrBfZuBiW0,
 11/6/2022 6:13:49,cuberswoop/Ashton Froude,USA (Detroit),3x3x3 Speedsolve,"-59min, 56.73sec",thanks for hosting,,
@@ -87,7 +87,7 @@ export const eventData: Record<
 	Pyraminx: {
 		code: "pyraminx",
 	},
-	Megaminx: {
+	NEGAminx: {
 		code: "minx",
 	},
 	Skewb: {

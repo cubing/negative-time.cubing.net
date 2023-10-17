@@ -98,7 +98,17 @@ async function main() {
 		// <a class="section-link" href="#results">🔗</a>
 		h2.append(h2Link);
 		h2.append(" ");
-		h2.append(event); // TODO: ID
+		if (eventID === "minx") {
+			const nega = h2.appendChild(document.createElement("span"));
+			nega.textContent = "Nega";
+			nega.setAttribute("style", "font-variant: small-caps;");
+			h2.append("minx");
+			h2.append("*");
+			section.appendChild(document.createElement("p")).textContent =
+				"*Note: Negaminx is just like Megaminx, but solved in negative time.";
+		} else {
+			h2.append(event); // TODO: ID
+		}
 
 		const table = section.appendChild(document.createElement("table"));
 
