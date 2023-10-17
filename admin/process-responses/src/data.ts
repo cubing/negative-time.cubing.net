@@ -29,7 +29,7 @@ export const data = `Timestamp,Name,Country Where You Participated,Event,Result,
 11/6/2022 1:16:51,Evyn Chiappe,USA,NEGAminx,"""-50min, 33.33sec""",,,
 11/6/2022 1:37:38,Rowan Fortier,Canada,Melinda's 2x2x2x2,"-58min, 20.67sec",now I have done both physical and virtual 4D puzzles in negative time :D,https://youtu.be/c-xfbM2ms3o,
 11/6/2022 5:49:01,Chris Hardwick,USA,3x3x3 Speedsolve,"-59min, 42.60sec","I have the flu this year, but am happy to still be able to participate.",https://youtu.be/MsrBfZuBiW0,
-11/6/2022 6:13:49,cuberswoop/Ashton Froude,USA (Detroit),3x3x3 Speedsolve,"-59min, 56.73sec",thanks for hosting,,
+11/6/2022 6:13:49,cuberswoop/Ashton Froude,USA (Detroit),3x3x3 Speedsolve,"-59min, 46.73sec",thanks for hosting,,
 11/6/2022 8:45:03,Kael Hitchcock,USA,3x3x3 Speedsolve,"-59min, 51.23sec",,,"y R' L' D U R F
 R' L U2 L'
 R U' R' U2 R U' R'
