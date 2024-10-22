@@ -25,3 +25,11 @@ setup:
 .PHONY: clean
 clean:
 	rm -rf .cache parcel-cache dist
+
+.PHONY: lint
+lint:
+	npx @biomejs/biome check ./src ./script
+
+.PHONY: format
+format:
+	npx @biomejs/biome format --write ./src ./script

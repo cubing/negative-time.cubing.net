@@ -1,13 +1,12 @@
 {
-  "name": "process-responses",
+  "name": "@cubing/negative-time.cubing.net",
   "type": "module",
   "author": "Lucas Garron <code@garron.net>",
   "license": "GPL-3.0-or-later",
-  "dependencies": {
-    "csv-parse": "^5.3.1",
-    "cubing": "^0.31.6"
-  },
   "devDependencies": {
+    "cubing": "^0.31.6",
+    "csv-parse": "^5.5.6",
+    "@biomejs/biome": "^1.9.4",
     "@types/node": "^18.11.9",
     "barely-a-dev-server": "^0.3.6",
     "typescript": "^4.8.4"
