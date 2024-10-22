@@ -1,6 +1,10 @@
 .PHONY: dev
 dev:
-	node script/dev.js
+	bun run script/dev.ts
+
+.PHONY: setup
+setup:
+	bun install
 
 .PHONY: clean
 clean:
