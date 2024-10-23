@@ -19,7 +19,7 @@ body {
 .ribbon {
   width: 100%;
   height: 40vh;
-  background-color: #3F51B5;
+  background-color: #3f51b5;
 }
 
 .content {
@@ -30,7 +30,8 @@ body {
   margin: calc(-35vh + 16px) auto 80px;
   max-width: 1024px;
   width: calc(100% - 256px);
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px -1px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
 
   /*line-height: 1.5em;*/
@@ -84,7 +85,7 @@ table {
 }
 
 table td {
-  border: 1px solid #CCC;
+  border: 1px solid #ccc;
   padding: 0.25em 0.5em;
 }
 
@@ -94,7 +95,7 @@ table thead {
 
 table thead,
 table tr:nth-child(even) {
-  background: #EEE;
+  background: #eee;
 }
 
 .scramble {
@@ -102,9 +103,8 @@ table tr:nth-child(even) {
   line-height: 1.5em;
   text-align: center;
   margin-top: 1em;
-  margin-bottom: 2em
+  margin-bottom: 2em;
 }
-
 
 .prize-banner {
   transform: rotate(-5deg);
@@ -126,9 +126,9 @@ section {
   padding: 0.1rem 2rem 0.5rem;
 }
 
-h1>a,
-h2>a {
-  color: #3F51B5;
+h1 > a,
+h2 > a {
+  color: #3f51b5;
 }
 
 :target {
