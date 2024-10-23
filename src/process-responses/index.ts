@@ -2,7 +2,7 @@
 import { parse } from "csv-parse/browser/esm/sync";
 import { eventInfo } from "cubing/puzzles";
 import { TwistyPlayer } from "cubing/twisty";
-import { csvData } from "./data/data";
+import { csvData } from "./data/csvData";
 import { eventData } from "./data/eventData";
 
 enum FieldName {

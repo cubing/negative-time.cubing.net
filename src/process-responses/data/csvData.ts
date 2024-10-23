@@ -19,8 +19,9 @@ export const csvData = `Timestamp,Name,Country Where You Participated,Event,Resu
 11/5/2023 11:53:46,John Spencer,United States of America,Gigaminx,"-34min, 40sec","25min, 20sec","The first ""official"" Gigaminx negative time solvee",https://youtu.be/A4yHZlyR2VY ,
 11/5/2023 22:40:36,Erik Cheng,USA,5x5x5,-58 min 41.76 sec,78.24 sec,,,
 11/6/2023 17:48:31,Colin Chu,United States,Square-1,"-59min, 45.445sec",14.555sec,,,""
-11/29/2023 18:01:20,Tyler Farr,United States,3x3x3 Speedsolve,"-59min, 49.42sec",10.58sec,better than 2021 at least,,`;
+11/29/2023 18:01:20,Tyler Farr,United States,3x3x3 Speedsolve,"-59min, 49.42sec",10.58sec,better than 2021 at least,,
+10/23/2024 4:04:19,Lucas Garron,USA,3x3x3 Speedsolve,"-59min, 48.17sec",11.83,,,`;
 
 // TODO:
 // 11/5/2023 1:32:06,Draco Tong,USA,5x5x5 Blindfolded,+29.87sec,"1hr, 0min, 29.87sec",,,
-// Lucas Garron
+// Lucas Garron (video)
