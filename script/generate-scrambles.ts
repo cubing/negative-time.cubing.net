@@ -35,3 +35,7 @@ write(
   file(join(outputDir, "scrambles.json")),
   JSON.stringify(allScrambles, null, "  "),
 );
+
+console.log(`
+Scrambles have been written to: ${outputDir}
+`);

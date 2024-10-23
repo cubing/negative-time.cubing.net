@@ -37,3 +37,7 @@ lint:
 .PHONY: format
 format:
 	npx @biomejs/biome format --write ./src ./script
+
+.PHONY: generate-scrambles
+generate-scrambles:
+	bun run "script/generate-scrambles.ts"
