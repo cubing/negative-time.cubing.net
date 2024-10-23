@@ -23,3 +23,4 @@ export const csvData = `Timestamp,Name,Country Where You Participated,Event,Resu
 
 // TODO:
 // 11/5/2023 1:32:06,Draco Tong,USA,5x5x5 Blindfolded,+29.87sec,"1hr, 0min, 29.87sec",,,
+// Lucas Garron

@@ -14,9 +14,13 @@ deploy:
 open:
 	open "https://negative-time.cubing.net/"
 
-.PHONY: dev
-dev:
+.PHONY: dev-process-responses
+dev-process-responses:
 	bun run script/process-responses.ts
+
+.PHONY: dev-serve
+dev-serve:
+	bun x serve src/static
 
 .PHONY: setup
 setup:
