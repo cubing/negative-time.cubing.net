@@ -42,7 +42,7 @@ function centiseconds(result: string): number {
       "-([0-9]+) *min *,? *([0-9]+(\\.[0-9]+)?) *s(ec)?",
     );
     if (!match) {
-      throw new Error("No match!");
+      throw new Error(`Result could not be parsed: ${result}`);
     }
     const [_, min, sec] = match;
     return -(

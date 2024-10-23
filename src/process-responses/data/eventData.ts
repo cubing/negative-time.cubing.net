@@ -30,6 +30,9 @@ export const eventData: Record<
   "4x4x4 Blindfolded": {
     code: "444bf",
   },
+  "5x5x5 Blindfolded": {
+    code: "555bf",
+  },
   "3x3x3 One-Handed": {
     code: "333oh",
   },
@@ -69,11 +72,17 @@ export const eventData: Record<
   Kilominx: {
     code: "kilominx",
   },
+  Megaminx: {
+    code: "minx",
+  },
   "Redi Cube": {
     code: "redi_cube",
     scrambleString: "UL' B D R' D L B' R UL' UR F' UR U' UR",
   },
   "Melinda's 2x2x2x2": {
     code: "melindas2x2x2x2",
+  },
+  Gigaminx: {
+    code: "gigaminx",
   },
 };
