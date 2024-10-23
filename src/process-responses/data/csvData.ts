@@ -4,7 +4,7 @@ export const csvData = `Timestamp,Name,Country Where You Participated,Event,Resu
 10/28/2023 18:04:00,Christopher Kilgallon,United Kingdom,Megaminx,"-59min, 5.55sec",54.45,,,
 10/28/2023 18:18:20,Mattheo de Wit,Netherlands,3x3x3 Speedsolve,"-59min, 51.57sec",8.43sec,,https://youtu.be/wgnqJ-AS8QQ,
 11/4/2023 23:05:23,Mike Hughey,United States,3x3x3 Blindfolded,"-58min, 19.02sec","1min, 40.98sec","-59min, 8.70sec memorization, 49.68sec execution",,
-11/4/2023 23:12:40,Chris Hardwick,United States,3x3x3 Speedsolve,"-59min, 46.225sec",13.775,"It gets harder each contest year to wake up shortly before 2am, but is still fun to try for every year!",https://youtu.be/7UquJ6wgnqs?si=Bf2k0NWzZVzQtv6N,CFOP F2L into a dot OLL and A-Perm
+11/4/2023 23:12:40,Chris Hardwick,United States,3x3x3 Speedsolve,"-59min, 46.225sec",13.775,"It gets harder each contest year to wake up shortly before 2am, but is still fun to try for every year!",https://youtu.be/7UquJ6wgnqs?si=Bf2k0NWzZVzQtv6N,
 11/4/2023 23:17:37,Finn McElroy,Canada (Ontario),3x3x3 Speedsolve,"-59min, 17.45sec",42.55sec,Shakin' Like a Human Being,https://www.youtube.com/watch?v=2v_IK_0hRJ8,
 11/4/2023 23:47:41,Eris McElroy,Canada,3x3x3 Speedsolve,"-59min, 37.25sec",22.75sec,I was so nervous haha.,https://www.youtube.com/watch?v=ZfmI8ZYwy8I,
 11/5/2023 0:03:55,Zeke Mackay,USA,3x3x3 Speedsolve,"-59min, 53.04sec",6.96sec,,https://youtu.be/wPZ25bmEOsU,
