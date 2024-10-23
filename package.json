@@ -5,6 +5,7 @@
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@cubing/deploy": "^0.1.4",
     "@types/bun": "^1.1.12",
     "barely-a-dev-server": "^0.6.2",
     "csv-parse": "^5.5.6",
@@ -12,5 +13,10 @@
     "esbuild": "0.24.0",
     "serve": "^14.2.4",
     "typescript": "^5.6.3"
+  },
+  "@cubing/deploy": {
+    "https://negative-time.cubing.net": {
+      "fromLocalDir": "./src/static"
+    }
   }
 }
