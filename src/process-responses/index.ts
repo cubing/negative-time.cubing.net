@@ -2,7 +2,8 @@
 import { parse } from "csv-parse/browser/esm/sync";
 import { eventInfo } from "cubing/puzzles";
 import { TwistyPlayer } from "cubing/twisty";
-import { data, eventData } from "./data/data";
+import { csvData } from "./data/data";
+import { eventData } from "./data/eventData";
 
 enum FieldName {
   Name = "Name",
@@ -17,7 +18,7 @@ enum FieldName {
 
 type Row = Record<FieldName, string>;
 
-const parsed: Row[] = parse(data, {
+const parsedData: Row[] = parse(csvData, {
   columns: true,
 });
 
@@ -26,7 +27,7 @@ for (const event in eventData) {
   by_event[event] = [];
 }
 
-for (const row of parsed) {
+for (const row of parsedData) {
   const event = row.Event;
   if (!by_event[event]) {
     console.log("Unknown event", event, by_event);
