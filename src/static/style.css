@@ -98,6 +98,52 @@ table tr:nth-child(even) {
   background: #eee;
 }
 
+.events td {
+  padding: 0.5em 0.5em;
+  font-size: 1.25em;
+}
+
+@media (max-width: 40em) {
+  table.events {
+    display: bloc;
+    width: 100%;
+    box-sizing: border-box;
+
+    & tr {
+      display: grid;
+      grid-auto-flow: row;
+      width: 100%;
+      border: 1px solid #ccc;
+      padding: 0.75em 0.25em;
+      margin-top: -1px;
+
+      background-color: #f4f4f4;
+      &:nth-child(even) {
+        background-color: #ddd;
+      }
+    }
+
+    & td {
+      text-align: center;
+      display: inline;
+      width: 100%;
+      box-sizing: border-box;
+      border: none;
+      padding: 0.1em 0.25em;
+      font-size: 1.25rem;
+
+      &:first-child {
+        font-size: 1.5rem;
+        /* text-decoration: underline; */
+      }
+
+      &:last-child {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
 .scramble {
   font-size: 1.75em;
   line-height: 1.5em;
