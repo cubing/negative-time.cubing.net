@@ -102,7 +102,7 @@ export const eventData: Record<
   },
   "Loud Guildford": {
     code: "loud_guildford",
-    explanation: "Guildford Challenge but excluding all non-quiet events.",
+    explanation: "Guildford Challenge but excluding all quiet events.",
   },
   "Baby FTO": {
     code: "baby_fto",
