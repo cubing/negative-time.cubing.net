@@ -1,6 +1,6 @@
 export const eventData: Record<
   string,
-  { code: string; scrambleString?: string }
+  { code: string; scrambleString?: string; explanation?: string }
 > = {
   "3x3x3 Speedsolve": {
     code: "333",
@@ -45,6 +45,8 @@ export const eventData: Record<
   },
   NEGAminx: {
     code: "minx",
+    explanation:
+      "Note: Negaminx is just like Megaminx, but solved in negative time.",
   },
   Skewb: {
     code: "skewb",
@@ -91,5 +93,18 @@ export const eventData: Record<
   },
   Gigaminx: {
     code: "gigaminx",
+  },
+  Hanoiminx: {
+    code: "hanoiminx",
+  },
+  "9x9x9 Speedsolve": {
+    code: "999",
+  },
+  "Loud Guildford": {
+    code: "loud_guildford",
+    explanation: "Guildford Challenge but excluding all non-quiet events.",
+  },
+  "Baby FTO": {
+    code: "baby_fto",
   },
 };

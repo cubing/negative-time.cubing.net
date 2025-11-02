@@ -94,6 +94,7 @@ async function main() {
     const anyRowHasReconstruction = anyRowHasField(FieldName.Reconstruction);
 
     const eventID = eventData[event].code;
+    const { explanation } = eventData[event];
 
     const section = tableRoot.appendChild(document.createElement("section"));
     section.id = `results-${eventID}`;
@@ -111,11 +112,13 @@ async function main() {
       nega.textContent = "Nega";
       nega.setAttribute("style", "font-variant: small-caps;");
       h2.append("minx");
-      h2.append("*");
-      section.appendChild(document.createElement("p")).textContent =
-        "*Note: Negaminx is just like Megaminx, but solved in negative time.";
     } else {
       h2.append(event); // TODO: ID
+    }
+    if (explanation) {
+      h2.append("*");
+      section.appendChild(document.createElement("p")).textContent =
+        `*${explanation}`;
     }
 
     const table = section.appendChild(document.createElement("table"));
