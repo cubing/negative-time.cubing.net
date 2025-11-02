@@ -34,7 +34,8 @@ U2' r U' r' U2 r U M U' R' // ELS
 U3 R U' R' U F' R' R F R' F' R U R U' R' F // CLS
 U R' U2 R U2' R' F R U R' U' R' F' R2 U2' // PLL"
 11/2/2025 1:11:42,Stella Rigoni,USA,3x3x3 Speedsolve,"-59min, 13.38sec",46.62sec,,,
-11/2/2025 1:12:22,Joseph Ong,USA,Square-1,"-59min, 48.55sec",11.45,+2 out of WB,https://youtu.be/rlrtKBkkp78,`;
+11/2/2025 1:12:22,Joseph Ong,USA,Square-1,"-59min, 48.55sec",11.45,+2 out of WB,https://youtu.be/rlrtKBkkp78,
+11/2/2025 8:00:20,Charles Bois,USA,Clock,"-59min, 57.22sec",2.78,,,`;
 
 // TODO (2024):
 // Lucas Garron (video)
