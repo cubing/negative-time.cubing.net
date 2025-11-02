@@ -27,7 +27,7 @@ export const csvData = `Timestamp,Name,Country Where You Participated,Event,Resu
 11/2/2025 1:01:18,Raymos Castillo,USA,3x3x3 Speedsolve,"-59min, 49.30sec",10.70sec,,,
 11/2/2025 1:05:38,Jason Hammerman,USA,3x3x3 Blindfolded,"-59min, 4.53sec",55.47,,https://youtu.be/9tLdfgQTxuY?,
 11/2/2025 1:03:02,Jeremy Fleischman,USA,3x3x3 Speedsolve,"-59min, 48.33sec",11.67sec,,,
-11/2/2025 1:05:41,Lucas Garron,USA,3x3x3 Speedsolve,"-59min,49.09sec",10.91sec,,https://www.youtube.com/watch?v=AA74rilak_o,"x2' R' F R2 D' R' B2' y' R' U R U2' y R' U' R // F2L Slot 1
+11/2/2025 1:05:41,Lucas Garron,USA,3x3x3 Speedsolve,"-59min,49.09sec",10.91sec,,https://youtu.be/3r89l03tQX0,"x2' R' F R2 D' R' B2' y' R' U R U2' y R' U' R // F2L Slot 1
 y2' R U' R' // F2L Slot 2 (adjacent)
 y U R' U' R // F2L Slot 3
 U2' r U' r' U2 r U M U' R' // ELS
