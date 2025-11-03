@@ -35,7 +35,16 @@ U3 R U' R' U F' R' R F R' F' R U R U' R' F // CLS
 U R' U2 R U2' R' F R U R' U' R' F' R2 U2' // PLL"
 11/2/2025 1:11:42,Stella Rigoni,USA,3x3x3 Speedsolve,"-59min, 13.38sec",46.62sec,,,
 11/2/2025 1:12:22,Joseph Ong,USA,Square-1,"-59min, 48.55sec",11.45,+2 out of WB,https://youtu.be/rlrtKBkkp78,
-11/2/2025 8:00:20,Charles Bois,USA,Clock,"-59min, 57.22sec",2.78,,,`;
+11/2/2025 8:00:20,Charles Bois,USA,Clock,"-59min, 57.22sec",2.78,,,
+11/2/2025 18:35:17,Draco Tong,USA,2x2x2,"-59min, 50.76sec",9.24sec,,,
+11/2/2025 18:35:20,Draco Tong,USA,3x3x3 One-Handed,"-58min, 8.69sec","1min, 51.31sec",,,
+11/2/2025 18:35:22,Draco Tong,USA,7x7x7,"-32min, 42.07sec","27min, 17.93sec",,,
+11/2/2025 18:35:24,Draco Tong,USA,NEGAminx,"-48min, 24.61sec","11min, 35.39sec",,,
+11/2/2025 18:35:26,Draco Tong,USA,4x4x4 Blindfolded,"-26min, 31.37sec","33min, 28.63sec",,,
+11/2/2025 18:35:27,Draco Tong,USA,5x5x5 Blindfolded,"-0min, 19.85sec","59min, 40.15sec",,,`;
+
+// TODO (2025)
+// Handle -19.85 (-0:19.85)
 
 // TODO (2024):
 // Lucas Garron (video)
