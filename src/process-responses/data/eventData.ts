@@ -4,7 +4,7 @@ export const eventData: Record<
 > = {
   "3x3x3 Speedsolve": {
     code: "333",
-    scrambleString: "F2 L2 F R2 D L B2 R B' R2 U F2 D B2 D2 L2 D' L2 B2 D L2",
+    scrambleString: "F2 U B L' D' F2 R B2 R2 U' D2 L2 U F2 D2 L2 F2 U' F2",
   },
   "2x2x2": {
     code: "222",
@@ -35,7 +35,6 @@ export const eventData: Record<
   },
   "3x3x3 One-Handed": {
     code: "333oh",
-    scrambleString: "D2 F' R U' B' R F D' R2 D' L2 B2 U2 R2 U F2 L2 D B2 F",
   },
   Clock: {
     code: "clock",
@@ -86,7 +85,6 @@ export const eventData: Record<
   },
   "Redi Cube": {
     code: "redi_cube",
-    scrambleString: "UL' B D R' D L B' R UL' UR F' UR U' UR",
   },
   "Melinda's 2x2x2x2": {
     code: "melindas2x2x2x2",
