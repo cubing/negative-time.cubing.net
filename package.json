@@ -9,7 +9,7 @@
     "@types/bun": "^1.1.12",
     "barely-a-dev-server": "v0.7.1",
     "csv-parse": "^5.5.6",
-    "cubing": "v0.53.11",
+    "cubing": ">=0.61.1",
     "esbuild": "0.25.0",
     "serve": "^14.2.4",
     "typescript": "^5.6.3"
