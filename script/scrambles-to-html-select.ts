@@ -4,7 +4,7 @@ import { file } from "bun";
 import { eventInfo } from "cubing/puzzles";
 import { JSDOM } from "jsdom";
 
-const YEAR = 2025;
+const YEAR = 2026;
 
 const dom = new JSDOM("");
 const { window } = dom;
