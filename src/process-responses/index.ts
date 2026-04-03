@@ -1,4 +1,3 @@
-// @ts-ignore
 import { parse } from "csv-parse/browser/esm/sync";
 import { eventInfo } from "cubing/puzzles";
 import { TwistyPlayer } from "cubing/twisty";
@@ -81,7 +80,7 @@ async function main() {
       (a, b) => centiseconds(a.Result) - centiseconds(b.Result),
     );
 
-    const anyRowHasField = (fieldName: string): boolean => {
+    const anyRowHasField = (fieldName: FieldName): boolean => {
       for (const row of rows) {
         if (row[fieldName] !== "") {
           console.log(fieldName, row);
@@ -210,4 +209,5 @@ async function main() {
     button.textContent = "Copied!";
   });
 }
-main();
+
+await main();

@@ -1,3 +1,6 @@
+.PHONY: check
+check: lint
+
 all: deploy open
 
 .PHONY: deploy
@@ -26,7 +29,7 @@ clean:
 
 .PHONY: lint
 lint: setup
-	npx @biomejs/biome check ./src ./script
+	bun x -- bun-dx --package @biomejs/biome biome -- check
 
 .PHONY: format
 format: setup

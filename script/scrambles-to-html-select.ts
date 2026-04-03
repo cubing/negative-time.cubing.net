@@ -1,5 +1,4 @@
 import { join } from "node:path";
-import { fileURLToPath } from "node:url";
 import { file } from "bun";
 import { eventInfo } from "cubing/puzzles";
 import { JSDOM } from "jsdom";

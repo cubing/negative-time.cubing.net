@@ -30,7 +30,9 @@ body {
   margin: calc(-35vh + 16px) auto 80px;
   max-width: 1024px;
   width: calc(100% - 256px);
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+  box-shadow:
+    0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12),
     0 2px 4px -1px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
 
@@ -118,6 +120,7 @@ table tr:nth-child(even) {
       margin-top: -1px;
 
       background-color: #f4f4f4;
+
       &:nth-child(even) {
         background-color: #ddd;
       }
@@ -172,7 +175,9 @@ section {
   padding: 0.1rem 2rem 0.5rem;
 }
 
+/* biome-ignore lint/style/noDescendingSpecificity: TODO */
 h1 > a,
+/* biome-ignore lint/style/noDescendingSpecificity: TODO */
 h2 > a {
   color: #3f51b5;
 }
