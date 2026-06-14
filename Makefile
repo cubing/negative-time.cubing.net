@@ -21,7 +21,7 @@ dev-serve: setup
 
 .PHONY: setup
 setup:
-	bun install --no-save
+	bun install --frozen-lockfile
 
 .PHONY: clean
 clean:
