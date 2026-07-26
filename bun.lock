@@ -5,7 +5,7 @@
     "": {
       "name": "@cubing/negative-time.cubing.net",
       "dependencies": {
-        "bun-dx": "^0.1.4",
+        "cubing": ">=0.63.3",
         "jsdom": "^29.1.1",
       },
       "devDependencies": {
@@ -14,8 +14,8 @@
         "@cubing/dev-config": "^0.10.1",
         "@types/bun": "^1.3.14",
         "barely-a-dev-server": "v0.8.4",
+        "bun-dx": "^0.1.4",
         "csv-parse": "^7.0.1",
-        "cubing": ">=0.63.3",
         "esbuild": "0.28.1",
         "serve": "^14.2.6",
         "typescript": "^7.0.2",
