@@ -24,7 +24,7 @@ for (const [event, info] of Object.entries(twizzleEvents)) {
     );
     allScrambles[event] = eventScrambles;
   } catch (e) {
-    if (e.toString().includes("unsupported event")) {
+    if ((e as Error).toString().includes("unsupported event")) {
       continue;
     }
     throw e;

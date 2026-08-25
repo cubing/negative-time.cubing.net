@@ -23,13 +23,26 @@ dev-serve: setup
 setup:
 	bun install --frozen-lockfile
 
+RM_RF = bun -e 'process.argv.slice(1).map(p => process.getBuiltinModule("node:fs").rmSync(p, {recursive: true, force: true, maxRetries: 5}))' --
+
 .PHONY: clean
 clean:
-	rm -rf .cache parcel-cache dist
+	${RM_RF} ./.cache ./parcel-cache ./dist
+
+.PHONY: reset
+reset: clean
+	${RM_RF} ./node_modules/
 
 .PHONY: lint
-lint: setup
+lint: lint-biome lint-typescript
+
+.PHONY: lint-biome
+lint-biome: setup
 	bun x -- bun-dx --package @biomejs/biome biome -- check
+
+.PHONY: lint-typescript
+lint-typescript: setup
+	bun x -- bun-dx --package typescript tsc -- --project ./tsconfig.json
 
 .PHONY: format
 format: setup
